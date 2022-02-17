@@ -1,10 +1,11 @@
-/**
- * This is Truck Logs Program.
- *
- * @author  Abdul Basit Butt
- * @version 1.0
- * @since   2022-02-15
- */
+/*
+* This is Truck Logs Program.
+*
+* @author  Abdul Basit Butt
+* @version 1.0
+* @since   2022-02-15
+* Class Logs.
+*/
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,10 +17,14 @@ import java.io.InputStreamReader;
 */
 final class Logs {
 
-    // Public Constant Declarations
     /**
-     * MAX_WEIGHT is equal to the max weight that a truck can carry.
-     * */
+    * Prevent instantiation.
+    * Throw an exception IllegalStateException.
+    * if this ever is called
+    *
+    * @throws IllegalStateException
+    *
+    */
     public static final int MAX_WEIGHT = 1100;
 
     /**
@@ -71,4 +76,3 @@ final class Logs {
     }
 
 }
-
